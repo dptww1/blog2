@@ -1,11 +1,38 @@
-<header>
-  <img src="<%= relative_url '/images/logo.svg' %>" alt="Logo" />
-</header>
+<!-- header>
+  <img src="<%= relative_url '/images/logo.svg' %>" alt="Logo">
+</header -->
 
 <nav>
+  <p class='nav-section-header'><a href="<%= relative_url '/' %>">Home</a></p>
+
+  <p class='nav-section-header'>My Games</p>
   <ul>
-    <li><a href="<%= relative_url '/' %>">Home</a></li>
+    <li><a href="https://www.boardgamegeek.com/boardgame/184866/wings-for-the-baron-second-edition">Wings for the Baron</a></li>
+  </ul>
+
+  <p class='nav-section-header'>My Game Support Pages</p>
+  <ul>
+    <li><a href="https://www.sbginventory.com/">SBG Inventory</a></li>
+    <li><a href="https://www.davetownsend.org/Battles/lotr.html">SBG Battle Reports</a></li>
+    <li><a href="https://www.davetownsend.org/Battles/ca.html">Close Action Battle Reports</a></li>
+    <li><a href="https://www.davetownsend.org/BlueVsGray/Tracker/">Blue vs Gray Tracker</a></li>
+    <li><a href="https://www.davetownsend.org/ChroniclesOfCrime/">Chronicles of Crime Notepad</a></li>
+  </ul>
+
+  <p class='nav-section-header'>My Random Stuff</p>
+  <ul>
+    <li><a href="https://github.com/dptww1">GitHub</a></li>
+    <li><a href="http://www.davetownsend.org/WW1AirMap2/">WW1 Squadron Locations</a></li>
+  </ul>
+
+  <!-- TODO: tags -->
+  <!-- ul>
     <li><a href="<%= relative_url '/about' %>">About</a></li>
     <li><a href="<%= relative_url '/posts' %>">Posts</a></li>
+  </ul-->
+
+  <p class='nav-section-header'>Contact Me</p>
+  <ul>
+    <li><a href="mailto:dave@davetownsend.org">dave@davetownsend.org</a></li>
   </ul>
 </nav>

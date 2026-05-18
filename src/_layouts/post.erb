@@ -5,3 +5,13 @@ layout: default
 <h1><%= data.title %></h1>
 
 <%= yield %>
+
+<% if data.date %>
+  <div class="post-date"><%= data.date.to_s[0..10] %></div>
+<% end %>
+
+<% if data.categories %>
+  <div class="tags">
+    Tags: <%= data.categories.map { |c| c }.join(", ") %>
+  </div>
+<% end %>
