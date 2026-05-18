@@ -1,0 +1,18 @@
+---
+layout: default
+title: ":prototype-term-titleize content"
+prototype:
+  collection: posts
+  term: category
+---
+
+<h1><%= title.downcase %></h1>
+
+<ul>
+  <% paginator.each do |r| %>
+    <li class="post-summary">
+      <a href="<%= r.relative_url %>"><b><%= r.data.title %></b></a> <span class="post-date"><%= r.date.to_s[0..9] %></span>
+      <div><%= r.data.summary %></div>
+    </li>
+  <% end %>
+</ul>
