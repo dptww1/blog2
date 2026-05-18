@@ -1,0 +1,48 @@
+.factionMenu::before {
+  content: "▶ ";
+  font-size: 75%;
+}
+
+.factionMenu.selected::before {
+  content: "▼ ";
+  font-size: 75%;
+}
+
+
+.factionMenu {
+  background-color: #ddd;
+  padding: 0.2em;
+}
+
+.factionsSelectors {
+  background-color: #ddd;
+}
+
+.factionSelectors {
+  background-color: #ddd;
+  display: inline-block;
+  margin-right: 1.5em;
+  padding: 0.2em;
+  vertical-align: top;
+}
+
+.filterSelectPanel {
+  display: none;
+}
+
+input.factionCheckbox {
+  margin-left: 1.5em;
+}
+
+tr.dataRow:nth-child(odd) {
+  background-color: #ddd;
+}
+
+tr.headerRow th {
+  text-decoration: underline;
+  text-decoration-color: currentcolor;
+  text-decoration-thickness: auto;
+  text-decoration-color: #ccc;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.25em;
+}

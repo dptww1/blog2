@@ -1,0 +1,449 @@
+{
+  "spellcasters": {
+    "Gandalf the Grey": {
+      "factions": [ "Fellowship", "The Shire", "Thorin's Company", "Survivors of Laketown", "White Council" ],
+      "spells": {
+        "Blinding Light": { "dr": 4, "range": null },
+        "Collapse Rocks": { "dr": 5, "range": 12 },
+        "Foil Magic": { "dr": 5, "range": 12 },
+        "Protection of the Valar": { "dr": 3, "range": 6 },
+        "Sorcerous Blast": { "dr": 5, "range": 12 },
+        "Strengthen Will": { "dr": 4, "range": 12 },
+        "Terrifying Aura": { "dr": 3, "range": null },
+        "Transfix": { "dr": 4, "range": 12 }
+      }
+    },
+    "Gandalf the White": {
+      "factions": [ "Minas Tirith" ],
+      "spells": {
+        "Banishment": { "dr": 5, "range": 12 },
+        "Blinding Light": { "dr": 3, "range": null },
+        "Foil Magic": { "dr": 4, "range": 12 },
+        "Fortify Spirit": { "dr": 4, "range": 12 },
+        "Sorcerous Blast": { "dr": 5, "range": 12 },
+        "Strengthen Will": { "dr": 4, "range": 12 },
+        "Terrifying Aura": { "dr": 3, "range": null },
+        "Transfix": { "dr": 3, "range": 12 },
+        "Your Staff is Broken": { "dr": 5, "range": 12 }
+      }
+    },
+    "Elrond, Master of Rivendell": {
+      "factions": [ "Rivendell", "White Council" ],
+      "spells": {
+        "Renew": { "dr": 3, "range": 12 },
+        "Wrath of Bruinen": { "dr": 4, "range": 3 }
+      }
+    },
+    "Arwen Undómiel": {
+      "factions": [ "Rivendell" ],
+      "spells": {
+        "Renew": { "dr": 3, "range": 12 },
+        "Wrath of Bruinen": { "dr": 4, "range": 3 }
+      }
+    },
+    "Círdan": {
+      "factions": [ "Rivendell" ],
+      "spells": {
+        "Aura of Dismay": { "dr": 5, "range": null },
+        "Blessing of the Valar": { "dr": 4, "range": 6 },
+        "Call Winds": { "dr": 4, "range": 12 },
+        "Enchant Blades": { "dr": 4, "range": 6 },
+        "Fog of Disarray": { "dr": 3, "range": null }
+      }
+    },
+    "Lindir": {
+      "factions": [ "Rivendell" ],
+      "spells": {
+        "Foil Magic": { "dr": 4, "range": 6 },
+        "Renew": { "dr": 4, "range": 6 }
+      }
+    },
+    "Galadriel": {
+      "factions": [ "Lothlórien", "White Council" ],
+      "spells": {
+        "Blessing of the Valar": { "dr": 4, "range": 12 },
+        "Blinding Light": { "dr": 4, "range": null },
+        "Compel": { "dr": 3, "range": 12 },
+        "Fog of Disarray": { "dr": 4, "range": null },
+        "Foil Magic": { "dr": 4, "range": 12 },
+        "Transfix": { "dr": 3, "range": 12 }
+      }
+    },
+    "Celeborn": {
+      "factions": [ "Lothlórien", "White Council" ],
+      "spells": {
+        "Aura of Dismay": { "dr": 3, "range": 12 },
+        "Enchant Blades": { "dr": 4, "range": 6 },
+        "Transfix": { "dr": 3, "range": 12 },
+        "Writhing Vines": { "dr": 4, "range": null }
+      }
+    },
+    "The Dark Lord Sauron": {
+      "factions": [ "Barad-dûr" ],
+      "spells": {
+        "Chill Soul": { "dr": 4, "range": 12 },
+        "Compel": { "dr": 3, "range": 18 },
+        "Drain Courage": { "dr": 4, "range": 18 },
+        "Instil Fear": { "dr": 5, "range": null },
+        "Fog of Disarray": { "dr": 3, "range": null },
+        "Transfix": { "dr": 3, "range": 18 }
+      }
+    },
+    "The Witch-King of Angmar": {
+      "factions": [ "Barad-dûr", "Angmar", "Mordor" ],
+      "spells": {
+        "Black Dart": { "dr": 5, "range": 6 },
+        "Compel": { "dr": 3, "range": 12 },
+        "Drain Courage": { "dr": 4, "range": 12 },
+        "Enchant Blades": { "dr": 4, "range": 12 },
+        "Instil Fear": { "dr": 5, "range": null },
+        "Transfix": { "dr": 3, "range": 12 },
+        "Your Staff is Broken": { "dr": 5, "range": 12 }
+      }
+    },
+    "Ringwraith": {
+      "factions": [ "Barad-dûr", "Mordor" ],
+      "spells": {
+        "Black Dart": { "dr": 5, "range": 6 },
+        "Compel": { "dr": 3, "range": 12 },
+        "Drain Courage": { "dr": 4, "range": 12 },
+        "Instil Fear": { "dr": 6, "range": null },
+        "Transfix": { "dr": 3, "range": 12 }
+      }
+    },
+    "The Mouth of Sauron": {
+      "factions": [ "Mordor" ],
+      "spells": {
+        "Curse": { "dr": 3, "range": 12 },
+        "Drain Courage": { "dr": 3, "range": 12 },
+        "Transfix": { "dr": 4, "range": 12 }
+      }
+    },
+    "Saruman the White": {
+      "factions": [ "White Council" ],
+      "spells": {
+        "Compel": { "dr": 3, "range": 18 },
+        "Fog of Disarray": { "dr": 3, "range": null },
+        "Foil Magic": { "dr": 4, "range": 18 },
+        "Protection of the Valar": { "dr": 3, "range": null },
+        "Sorcerous Blast": { "dr": 5, "range": 12 },
+        "Terrifying Aura": { "dr": 3, "range": null },
+        "Transfix": { "dr": 3, "range": 18 }
+       }
+    },
+    "Saruman": {
+      "factions": [ "Isengard" ],
+      "spells": {
+        "Aura of Dismay": { "dr": 5, "range": null },
+        "Compel": { "dr": 3, "range": 18 },
+        "Curse": { "dr": 4, "range": 12 },
+        "Flameburst": { "dr": 5, "range": 12 },
+        "Foil Magic": { "dr": 4, "range": 18 },
+        "Sorcerous Blast": { "dr": 5, "range": 12 },
+        "Terrifying Aura": { "dr": 3, "range": null },
+        "Transfix": { "dr": 3, "range": 18 }
+      }
+    },
+    "Radagast the Brown": {
+      "factions": [ "Radagast's Alliance", "White Council" ],
+      "spells": {
+        "Aura of Dismay": { "dr": 5, "range": null },
+        "Nature's Wrath": { "dr": 5, "range": null },
+        "Panic Steed": { "dr": 3, "range": 12 },
+        "Renew": { "dr": 4, "range": 12 },
+        "Terrifying Aura": { "dr": 2, "range": null },
+        "Transfix": { "dr": 4, "range": 12 },
+        "Writhing Vines": { "dr": 5, "range": null }
+      }
+    },
+    "Galadriel, Lady of Light": {
+      "factions": [ "White Council" ],
+      "spells": {
+        "Fortify Spirit": { "dr": 3, "range": 12 },
+        "Banishment": { "dr": 4, "range": 12 },
+        "Instil Fear": { "dr": 4, "range": null }
+      }
+    },
+    "Sauron the Necromancer": {
+      "factions": [ "Dol Guldur" ],
+      "spells": {
+        "Chill Soul": { "dr": 5, "range": 12 },
+        "Compel": { "dr": 3, "range": 12 },
+        "Curse": { "dr": 4, "range": 12 },
+        "Drain Courage": { "dr": 3, "range": 12 },
+        "Fog of Disarray": { "dr": 4, "range": null },
+        "Instil Fear": { "dr": 4, "range": null },
+        "Transfix": { "dr": 3, "range": 12 },
+        "Wither": { "dr": 4, "range": 12 },
+        "Your Staff is Broken": { "dr": 5, "range": 12 }
+      }
+    },
+    "Smaug": {
+      "factions": [ "Desolator of the North" ],
+      "spells": {
+        "Compel": { "dr": 3, "range": 12 },
+        "Foil Magic": { "dr": 5, "range": 12 },
+        "Transfix": { "dr": 4, "range": 12 }
+      }
+    },
+    "Mordor Orc Shaman": {
+      "factions": [ "Barad-dûr", "Mordor" ],
+      "spells": {
+        "Curse": { "dr": 4, "range": 12 },
+        "Fury": { "dr": 3, "range": null },
+        "Transfix": { "dr": 5, "range": 12 }
+      }
+    },
+    "Uruk-hai Shaman": {
+      "factions": [ "Isengard" ],
+      "spells": {
+        "Bladewrath": { "dr": 4, "range": 6 },
+        "Fury": { "dr": 3, "range": null },
+        "Transfix": { "dr": 5, "range": 12 }
+      }
+    },
+    "Isengard Orc Shaman": {
+      "factions": [ "Isengard" ],
+      "spells": {
+        "Enrage Beast": { "dr": 3, "range": null },
+        "Fury": { "dr": 4, "range": 6 },
+        "Transfix": { "dr": 5, "range": 12 }
+      }
+    },
+    "Sharkey": {
+      "factions": [ "Sharkey's Rogues" ],
+      "spells": {
+        "Compel":  { "dr": 3, "range": 12 },
+        "Terrifying Aura": { "dr": 3, "range": null },
+        "Transfix": { "dr": 3, "range": 12 }
+      }
+    },
+    "Drûzhag the Beastcaller": {
+      "factions": [ "Moria" ],
+      "spells": {
+        "Enrage Beast": { "dr": 3, "range": null },
+        "Fury":  { "dr": 3, "range": 12 },
+        "Writhing Vines": { "dr": 4, "range": null }
+      }
+    },
+    "Moria Goblin Shaman": {
+      "factions": [ "Moria" ],
+      "spells": {
+        "Fury": { "dr": 3, "range": null },
+        "Instil Fear": { "dr": 4, "range": null },
+        "Transfix": { "dr": 5, "range": 12 }
+      }
+    },
+    "Dragon": {
+      "factions": [ "Moria" ],
+      "spells": {
+        "Compel": { "dr": 3, "range": 12 },
+        "Foil Magic": { "dr": 4, "range": 12 },
+        "Transfix": { "dr": 3, "range": 12 }
+      }
+    },
+    "The Shadow of Rhudaur": {
+      "factions": [ "Angmar" ],
+      "spells": {
+        "Curse": { "dr": 4, "range": 6 },
+        "Drain Courage": { "dr": 3, "range": 6 },
+        "Fog of Disarray": { "dr": 3, "range": null },
+        "Wither": { "dr": 5, "range": 6 }
+      }
+    },
+    "Barrow Wight": {
+      "factions": [ "Angmar" ],
+      "spells": {
+        "Paralyse": { "dr": 3, "range": 12 }
+      }
+    },
+    "Angmar Orc Shaman": {
+      "factions": [ "Angmar" ],
+      "spells": {
+        "Drain Courage": { "dr": 4, "range": 12 },
+        "Instil Fear": { "dr": 3, "range": null },
+        "Wither": { "dr": 4, "range": 12 }
+      }
+    },
+    "Brórgîr": {
+      "factions": [ "Easterlings" ],
+      "spells": {
+        "Bladewrath": { "dr": 3, "range": 12 },
+        "Enchant Blades": { "dr": 4, "range": 12 },
+        "Fury": { "dr": 3, "range": null },
+        "Tremor": { "dr": 5, "range": null }
+      }
+    },
+    "Easterling War Priest": {
+      "factions": [ "Easterlings" ],
+      "spells": {
+        "Bladewrath": { "dr": 3, "range": 6 },
+        "Enchant Blades": { "dr": 4, "range": 6 },
+        "Fury": { "dr": 3, "range": null }
+      }
+    },
+    "Gildor Inglorion": {
+      "factions": [ "Rivendell" ],
+      "spells": {
+        "Immobilise": { "dr": 3, "range": 12 },
+        "Writhing Vines": { "dr": 4, "range": null }
+      }
+    },
+    "Rivendell Stormcaller": {
+      "factions": [ "Rivendell" ],
+      "spells": {
+        "Call Winds": { "dr": 3, "range": 12 },
+        "Foil Magic": { "dr": 4, "range": 12 },
+        "Strengthen Will": { "dr": 4, "range": 12 }
+      }
+    },
+    "Lothlórien Stormcaller": {
+      "factions": [ "Lothlórien" ],
+      "spells": {
+        "Call Winds": { "dr": 3, "range": 12 },
+        "Enchant Blades": { "dr": 4, "range": 12 },
+        "Writhing Vines": { "dr": 4, "range": null }
+      }
+    },
+    "Khamûl the Easterling": {
+      "factions": [ "Mordor", "Easterlings" ],
+      "spells": {
+        "Bladewrath": { "dr": 4, "range": 12 },
+        "Compel": { "dr": 4, "range": 12 },
+        "Transfix": { "dr": 4, "range": 12 },
+        "Drain Courage": { "dr": 5, "range": 12 },
+        "Black Dart": { "dr": 6, "range": 6 },
+        "Instil Fear": { "dr": 6, "range": null }
+      }
+    },
+    "The Tainted": {
+      "factions": [ "Angmar", "Mordor" ],
+      "spells": {
+        "Compel": { "dr": 3, "range": 12 },
+        "Transfix": { "dr": 3, "range": 12 },
+        "Drain Courage": { "dr": 4, "range": 12 },
+        "Black Dart": { "dr": 5, "range": 6 },
+        "Instil Fear": { "dr": 6, "range": null },
+        "Wither": { "dr": 6, "range": null }
+      }
+    },
+    "The Dwimmerlaik": {
+      "factions": [ "Angmar", "Mordor" ],
+      "spells": {
+        "Compel": { "dr": 3, "range": 12 },
+        "Transfix": { "dr": 3, "range": 12 },
+        "Curse": { "dr": 4, "range": 12 },
+        "Drain Courage": { "dr": 4, "range": 12 },
+        "Black Dart": { "dr": 5, "range": 6 },
+        "Instil Fear": { "dr": 6, "range": null }
+      }
+    },
+    "The Dark Marshal": {
+      "factions": [ "Mordor" ],
+      "spells": {
+        "Aura of Command": { "dr": 3, "range": null },
+        "Compel": { "dr": 3, "range": 12 },
+        "Transfix": { "dr": 3, "range": 12 },
+        "Drain Courage": { "dr": 4, "range": 12 },
+        "Black Dart": { "dr": 5, "range": 6 },
+        "Instil Fear": { "dr": 6, "range": null }
+      }
+    },
+    "The Shadow Lord": {
+      "factions": [ "Mordor" ],
+      "spells": {
+        "Compel": { "dr": 3, "range": 12 },
+        "Fog of Disarray": { "dr": 3, "range": null },
+        "Transfix": { "dr": 3, "range": 12 },
+        "Drain Courage": { "dr": 4, "range": 12 },
+        "Black Dart": { "dr": 5, "range": 6 },
+        "Instil Fear": { "dr": 6, "range": null }
+      }
+    },
+    "The Undying": {
+      "factions": [ "Mordor" ],
+      "spells": {
+        "Compel": { "dr": 3, "range": 12 },
+        "Transfix": { "dr": 3, "range": 12 },
+        "Drain Courage": { "dr": 4, "range": 12 },
+        "Foil Magic": { "dr": 4, "range": 12 },
+        "Black Dart": { "dr": 5, "range": 6 },
+        "Instil Fear": { "dr": 6, "range": null }
+      }
+    },
+    "The Betrayer": {
+      "factions": [ "Mordor", "Harad" ],
+      "spells": {
+        "Compel": { "dr": 4, "range": 12 },
+        "Drain Courage": { "dr": 4, "range": 12 },
+        "Transfix": { "dr": 4, "range": 12 },
+        "Black Dart": { "dr": 4, "range": 6 },
+        "Panic Steed": { "dr": 5, "range": 12 },
+        "Instil Fear": { "dr": 6, "range": null }
+      }
+    },
+    "The Knight of Umbar": {
+      "factions": [ "Mordor", "Harad" ],
+      "spells": {
+        "Compel": { "dr": 4, "range": 12 },
+        "Drain Courage": { "dr": 4, "range": 12 },
+        "Transfix": { "dr": 4, "range": 12 },
+        "Black Dart": { "dr": 4, "range": 6 },
+        "Enchant Blades": { "dr": 5, "range": 12 },
+        "Instil Fear": { "dr": 6, "range": null }
+      }
+    },
+    "Kardûsh the Firecaller": {
+      "factions": [ "Mordor" ],
+      "spells": {
+        "Flameburst": { "dr": 3, "range": 6 },
+        "Fury": { "dr": 3, "range": null }
+      }
+    },
+    "Ashrâk": {
+      "factions": [ "Moria" ],
+      "spells": {
+        "Fury": { "dr": 3, "range": null },
+        "Compel": { "dr": 4, "range": 12 }
+      }
+    },
+    "Moria Blackshield Shaman": {
+      "factions": [ "Moria" ],
+      "spells": {
+        "Collapse Rocks": { "dr": 4, "range": 6 },
+        "Tremor": { "dr": 5, "range": null }
+      }
+    },
+    "Muzgúr": {
+      "factions": [ "Mordor" ],
+      "spells": {
+        "Drain Courage": { "dr": 3, "range": 12 },
+        "Wither": { "dr": 3, "range": 12 },
+        "Transfix": { "dr": 4, "range": 12 }
+      }
+    }
+  },
+
+  "factions": {
+    "Angmar": { "alignment": "Evil" },
+    "Barad-dûr": { "alignment": "Evil" },
+    "Desolator of the North": { "alignment": "Evil" },
+    "Dol Guldur": { "alignment": "Evil" },
+    "Easterlings": { "alignment": "Evil" },
+    "Fellowship": { "alignment": "Good" },
+    "Harad": { "alignment": "Evil" },
+    "Isengard": { "alignment": "Evil" },
+    "Lothlórien": { "alignment": "Good" },
+    "Minas Tirith": { "alignment": "Good" },
+    "Mordor": { "alignment": "Evil" },
+    "Moria": { "alignment": "Evil" },
+    "Radagast's Alliance": { "alignment": "Good" },
+    "Rivendell": { "alignment": "Good" },
+    "Sharkey's Rogues": { "alignment": "Evil" },
+    "Survivors of Laketown": { "alignment": "Good" },
+    "The Shire": { "alignment": "Good" },
+    "Thorin's Company": { "alignment": "Good" },
+    "Wanderers in the Wild": { "alignment": "Good" },
+    "White Council": { "alignment": "Good" }
+  }
+}

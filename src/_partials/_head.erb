@@ -7,4 +7,16 @@
 
 <link rel="stylesheet" href="<%= asset_path :css %>" />
 <script src="<%= asset_path :js %>" defer></script>
+
+<% if data.headerjs %>
+  <% data.headerjs.each do |filename| %>
+    <script src="/js/<%= filename %>"></script>
+  <% end %>
+<% end %>
+
+<% if data.extracss %>
+  <% data.extracss.each do |filename| %>
+    <link rel="stylesheet" href="/css/<%= filename %>"/>
+  <% end %>
+<% end %>
 <%= live_reload_dev_js %>

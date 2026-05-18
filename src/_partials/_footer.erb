@@ -1,2 +1,7 @@
+<% if data.footerjs %>
+  <% data.footerjs.each do |filename| %>
+    <script src="/js/<%= filename %>" type="module"></script>
+  <% end %>
+<% end %>
 <footer>
 </footer>
