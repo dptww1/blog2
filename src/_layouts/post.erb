@@ -27,7 +27,7 @@ layout: default
   <div class="post-date"><%= data.date.to_s[0..10] %></div>
 <% end %>
 
-<% if data.categories %>
+<% if data.categories.size > 0 %>
   <div class="tags">
     Tags:
     <% data.categories.each_with_index do |tag,i| %>
