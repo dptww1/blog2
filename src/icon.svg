@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512mm"
+   height="512mm"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2 (dc2aeda, 2022-05-15)"
+   sodipodi:docname="512x512.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     showborder="true"
+     inkscape:zoom="0.2102413"
+     inkscape:cx="318.68144"
+     inkscape:cy="1017.878"
+     inkscape:window-width="1659"
+     inkscape:window-height="936"
+     inkscape:window-x="1380"
+     inkscape:window-y="883"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="447.1053"
+       y="627.84999"
+       width="908.47991"
+       height="1098.7375"
+       id="rect192" />
+    <rect
+       x="499.42613"
+       y="599.31136"
+       width="423.3231"
+       height="508.93901"
+       id="rect186" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text184"
+       style="stroke:#000000;fill:#000000;font-size:18.66666667px;white-space:pre;shape-inside:url(#rect186)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.44224741,0,0,0.49455223,-165.4988,-337.53054)"
+       id="text190"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:333.333px;font-family:Palatino;-inkscape-font-specification:'Palatino, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect192);fill:#000000;stroke:#000000"><tspan
+         x="447.10547"
+         y="1324.9994"
+         id="tspan450"><tspan
+           style="font-size:798.667px"
+           id="tspan448">D</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:389.648px;font-family:Palatino;-inkscape-font-specification:'Palatino, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:#000000;stroke-width:0.487872"
+       x="244.13934"
+       y="474.28311"
+       id="text406"
+       transform="scale(0.99989432,1.0001057)"><tspan
+         sodipodi:role="line"
+         id="tspan404"
+         style="stroke-width:0.487872"
+         x="244.13934"
+         y="474.28311">T</tspan></text>
+  </g>
+</svg>
