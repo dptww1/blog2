@@ -6,11 +6,4 @@ prototype:
   term: category
 ---
 
-<ul>
-  <% paginator.each do |r| %>
-    <li class="post-summary">
-      <a href="<%= r.relative_url %>"><b><%= r.data.title %></b></a> <span class="post-date"><%= r.date.to_s[0..9] %></span>
-      <div><%= r.data.excerpt %></div>
-    </li>
-  <% end %>
-</ul>
+<%= render "content_summary_list", content_list: paginator %>

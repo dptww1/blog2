@@ -1,0 +1,14 @@
+<%# required parameters: %>
+<%#   tag_list -- list of tag name strings %>
+
+<%# optional parameters: %>
+<%#   suppress_label -- boolean; if true then no "Tags:" prefix is rendered %>
+
+<% if tag_list.size > 0 %>
+  <div class="tags">
+    <%= binding.local_variable_defined?(:suppress_label) && suppress_label ? "" : "Tags:" %>
+    <% tag_list.sort.each_with_index do |tag,i| %>
+      <a href='<%= relative_url "/categories/#{tag}"%>'><%= tag %></a><%= i < tag_list.size - 1 ? "," : ""%>
+    <% end %>
+  </div>
+<% end %>

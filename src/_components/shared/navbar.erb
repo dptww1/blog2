@@ -24,13 +24,11 @@
   <p class='nav-section-header'>Tags</p>
   <ul>
     <li>
-    <%
-       # can't just use `site` here for some reason
-       tags = self.view_context.site.categories.keys.sort
-       tags.each_with_index do |tag, i|
-    %>
-      <a href='<%= relative_url "/categories/#{tag}"%>'><%= tag %></a><%= i < tags.size - 1 ? "," : ""%>
-    <% end %>
+      <%
+         # can't just use `site` here for some reason
+         tags = self.view_context.site.categories.keys.sort
+      %>
+      <%= render "tag_list", tag_list: tags, suppress_label: true %>
     </li>
   </ul>
 

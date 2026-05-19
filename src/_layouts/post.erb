@@ -27,11 +27,4 @@ layout: default
   <div class="post-date"><%= data.date.to_s[0..10] %></div>
 <% end %>
 
-<% if data.categories.size > 0 %>
-  <div class="tags">
-    Tags:
-    <% data.categories.each_with_index do |tag,i| %>
-      <a href='<%= relative_url "/categories/#{tag}"%>'><%= tag %></a><%= i < data.categories.size - 1 ? "," : ""%>
-    <% end %>
-  </div>
-<% end %>
+<%= render "tag_list", tag_list: data.categories %>
