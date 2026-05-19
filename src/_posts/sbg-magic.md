@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SBG Spellcasters
-summary: Filterable list of all the spells in the Middle Earth Strategy Battle Game, along with the spellcasters that can use them.
+excerpt: Filterable list of all the spells in the Middle Earth Strategy Battle Game, along with the spellcasters that can use them.
 date: 2026-05-17
 categories: [ "sbg" ]
 headerjs: [ "mithril-2.0.4.js", "sbg-tools.js" ]

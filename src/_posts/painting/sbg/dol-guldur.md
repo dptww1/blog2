@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dol Guldur Painting Guide
-summary: Painting guide for Dol Guldur terrain
+excerpt: Painting guide for Dol Guldur terrain
 date: 2022-04-01
 categories: ["painting", "sbg"]
 ---

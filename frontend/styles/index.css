@@ -112,3 +112,10 @@ hr {
 .post-summary a {
   padding-right: 1em;
 }
+
+.rss-feed-link {
+  float: right;
+  font-size: 10pt;
+  padding-right: 1em;
+  padding-top: 1.5em;
+}
