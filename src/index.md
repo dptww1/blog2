@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DaveT's Unfinished Tales
+title: Index
 ---
 
 Welcome to my part of the internet.  I'm [Dave Townsend](mailto:dave@davetownsend.org), a programmer (now retired) living in Northern Virginia.
