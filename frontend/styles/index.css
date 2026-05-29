@@ -79,8 +79,10 @@ body > nav p {
 main {
   background: white;
   grid-area: body;
+  line-height: 1.4;
   min-height: calc(100vh - 200px);
-  padding-left: 3em;
+  padding-left: 4em;
+  padding-right: 4em;
 
   @media (max-width: 500px) {
     padding: 16px 16px 50px;
