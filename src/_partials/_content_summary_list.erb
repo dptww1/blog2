@@ -4,7 +4,11 @@
 <ul>
   <% content_list.each do |r| %>
     <li class="post-summary">
-      <a href="<%= r.relative_url %>"><b><%= r.data.title %></b></a> <span class="post-date"><%= r.date.to_s[0..9] %></span>
+      <a href="<%= r.relative_url %>">
+        <% if r.data.has_key?("published") && !data.published %>
+          (DRAFT)
+        <% end %>
+        <b><%= r.data.title %></b></a> <span class="post-date"><%= r.date.to_s[0..9] %></span>
       <div><%= r.data.excerpt %></div>
     </li>
   <% end %>

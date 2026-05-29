@@ -7,6 +7,9 @@
     <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource) %>
 
     <main>
+      <% if data.has_key?("published") && !data.published %>
+        <div class="draft-header">--- DRAFT --- DRAFT --- DRAFT ---</div>
+      <% end %>
       <%= yield %>
     </main>
 

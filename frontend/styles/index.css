@@ -102,6 +102,14 @@ hr {
   margin: 3rem 0;
 }
 
+.draft-header {
+  color: blue;
+  font-size: 18pt;
+  font-weight: bold;
+  padding-top: 1em;
+  text-align: center;
+}
+
 .post-date {
   font-size: smaller;
   font-style: italic;
