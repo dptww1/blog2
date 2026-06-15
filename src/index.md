@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Index
+title: Home
 ---
 
 Welcome to my part of the internet.  I'm [Dave Townsend](mailto:dave@davetownsend.org), a programmer (now retired) living in Northern Virginia.
