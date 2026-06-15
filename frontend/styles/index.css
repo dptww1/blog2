@@ -102,6 +102,17 @@ hr {
   margin: 3rem 0;
 }
 
+table.simple {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table.simple th,td {
+  border: 1px solid black;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
 .draft-header {
   color: blue;
   font-size: 18pt;
