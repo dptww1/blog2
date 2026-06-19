@@ -46,7 +46,7 @@ If the first three events are those German Offensives, the *Kaiserschlacht* happ
 in February 1916, that has the war ending on the May-Jul 1917 turn.  That's pretty early, but this should be a rare occurrence, only about a .1% chance by
 my calculations.
 
-Conversely, if the third German Offensive chit isn't drawn until turn 10 -- also unlikely though possible -- the game lasts until turn 12 (Feb-Apr 1919).
+Conversely, if the third German Offensive chit isn't drawn until turn 10 -- also unlikely though possible -- the game lasts until turn 12 (Nov-1918 - Jan-1919).
 Which doesn't seem unreasonable.
 
 And of course the most common cases should fall between these two extremes.
