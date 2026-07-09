@@ -32,6 +32,9 @@ m.mount(document.getElementById('magic'), {
         "Middle Earth Strategy Battle Game"),
 
       " rulebook and thought \"That spell sounds cool, I wonder who can cast it?\"  This page can tell you."),
+
+    m("div.intro", "(Updated per the July 2026 errata)"),
+
     m(FactionSelect),
     m("table",
       m("tr.headerRow", m("th", "Spell"), m("th", "Spellcasters")),

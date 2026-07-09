@@ -148,7 +148,7 @@
       "factions": [ "Radagast's Alliance", "White Council" ],
       "spells": {
         "Aura of Dismay": { "dr": 5, "range": null },
-        "Nature's Wrath": { "dr": 5, "range": null },
+        "Nature's Wrath": { "dr": 5, "range": 3 },
         "Panic Steed": { "dr": 3, "range": 12 },
         "Renew": { "dr": 4, "range": 12 },
         "Terrifying Aura": { "dr": 2, "range": null },
@@ -221,8 +221,8 @@
     "Drûzhag the Beastcaller": {
       "factions": [ "Moria" ],
       "spells": {
-        "Enrage Beast": { "dr": 3, "range": null },
-        "Fury":  { "dr": 3, "range": 12 },
+        "Enrage Beast": { "dr": 3, "range": 6 },
+        "Fury":  { "dr": 3, "range": null },
         "Writhing Vines": { "dr": 4, "range": null }
       }
     },
