@@ -35,20 +35,22 @@ Oswald Boelcke.) The remaining aces are held in an "Available Aces" box on the m
 At the end of each turn, a d10 is rolled for each ace, whether active or inactive, and the corresponding result from
 the following table is implemented for that ace:
 
-<table class="simple">
-<tr><td><b>Dieroll</b></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr>
-<tr><td><b>Result</b> </td><td>-</td><td>-</td><td>-</td><td>-</td><td>W</td><td>W</td><td>A</td><td>AWK</td><td>AWK</td><td>K</td></tr>
-</table>
+<div class="next-table-simple"></div>
+
+| Dieroll    | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8   | 9   | 10|
+|------------|---|---|---|---|---|---|---|-----|-----|---|
+| **Result** | - | - | - | - | W | W | A | AWK | AWK | K |
 
 where the results mean:
 
-<table class="simple">
-<tr><td><b>-</b></td><td> No change; an active ace stays active, an inactive ace stays inactive</td></tr>
-<tr><td><b>W</b></td><td> If active and healthy, the ace is wounded; otherwise, no change</td></tr>
-<tr><td><b>A</b></td><td> If inactive, the ace is now active; otherwise, no change</td></tr>
-<tr><td><b>K</b></td><td> If active, the ace is killed and removed from play; otherwise, no change</td></tr>
-<tr><td><b>AWK</b></td><td> If inactive, treat as <b>A</b>. If active and healthy, treat as <b>W</b>. If active and wounded, treat as <b>K</b></td></tr>
-</table>
+<div class="next-table-simple"></div>
+
+|------|---|
+| **-**  |No change |
+| **W**  | If active and healthy, the ace is wounded; otherwise, no change  |
+| **A**  | If inactive, the ace is now active; otherwise, no change  |
+| **K**  | If active, the ace is killed and removed from play; otherwise, no change  |
+| **AWK** | If inactive, treat as **A**. If active and healthy, treat as **W**. If active and wounded, treat as **K**  |
 
 I went through several variations of the results table. Until thinking of the wounded status, aces were too often either appearing and then getting killed the next turn
 (if the table had a lot of **K** results), or never dying at all (if there were fewer **K** results).  Now with the above you can still get the occasional shooting star

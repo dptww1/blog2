@@ -16,14 +16,15 @@ values were generic, you could still potentially have different aircraft types t
 
 There are many aircraft sequences that work pretty well in this scheme:
 
-<table class="simple">
-<tr><td></td><td><b>German</b></td><td><b>French</b></td><td><b>British</b></td></tr>
-<tr><td>F1</td><td>Fokker E types</td><td>Nieuport 11</td><td>DH-2</td></tr>
-<tr><td>F2</td><td>Halberstadt D types</td><td>Nieuport 17</td><td>Sopwith Pup</td></tr>
-<tr><td>F3</td><td>Albatros D types</td><td>SPAD 7</td><td>Sopwith Triplane</td></tr>
-<tr><td>F4</td><td>Fokker Dr.I</td><td>SPAD 13</td><td>Sopwith Camel, SE-5a</td></tr>
-<tr><td>F5</td><td>Fokker D.VII</td><td>Nieuport 27?</td><td>Sopwith Dolphin & Snipe?</td></tr>
-</table>
+<div class="next-table-simple"></div>
+
+|Generation|German             |French     |British         |
+|----------|-------------------|-----------|----------------|
+|F1        |Fokker E types     |Nieuport 11|DH-2            |
+|F2        |Halberstadt D types|Nieuport 17|Sopwith Pup     |
+|F3        |Albatros D types   |SPAD 7     |Sopwith Triplane|
+|F4.       |Fokker Dr.I                   |     SPAD 13      | Sopwith Camel, SE-5a
+| F5               | Fokker D.VII | Nieuport 27? | Sopwith Dolphin & Snipe? |
 
 But there are important aircraft which are hard to fit into this typology.  Do we consider the multi-seat aircraft like the Bristol Brisfit, German
 CL-types, and Caudron R types to be fighters, or bombers?  Is the FE-2 a reconnaissance aircraft or a bomber?
